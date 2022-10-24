@@ -1,3 +1,6 @@
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
 html {
   box-sizing: border-box;
 }
@@ -8,8 +11,32 @@ body {
   margin: 0;
 }
 
-.nav-container {
+.page-inner {
   width: 94vw;
+}
+
+.text-big {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.text-medium {
+  font-size: 25px;
+  letter-spacing: 0.04rem;
+  word-spacing: 0.2rem;
+}
+
+.text-small {
+  font-size: 17px;
+  letter-spacing: 0.028rem;
+  word-spacing: 0.17rem;
+}
+
+/* NAV */
+/* NAV */
+/* NAV */
+.nav-container {
+  width: 100%;
   height: 100px;
   margin-left: 3vw;
   margin-top: 24px;
@@ -32,6 +59,7 @@ body {
   margin-top: 16px;
   text-align: center;
   text-decoration: none;
+  color: black;
 }
 
 .nav-item:hover {
@@ -40,11 +68,9 @@ body {
 
 .nav-item-active {
   outline: 2px solid rgb(48, 105, 212);
+  color: rgb(48, 105, 212);
 }
 
 .nav-item-text {
-  font-size: 30px;
   margin-top: 16px;
-  color: black;
-  letter-spacing: 3px;
 }
