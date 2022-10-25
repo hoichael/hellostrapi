@@ -1,15 +1,10 @@
 const container = document.querySelector(".info-article");
 
-fetch("http://localhost:1337/api/info?populate=section")
-    .then((res) => {
-        return res.json();
-    })
-    .then((data) => {
-        insertDataIntoDOM(data.data.attributes.section);
-    })
-    .catch((err) => {
-        console.log(err);
-    });
+const handleData = async () => {
+    const res = await fetch("http://localhost:1337/api/info?populate=section");
+    const data = await res.json();
+    insertDataIntoDOM(data.data.attributes.section);
+};
 
 const insertDataIntoDOM = (dataArray) => {
     //   redundant because the proper amount of objects (as well as the general structure of the payload) is enforced in the backend
@@ -35,3 +30,5 @@ const insertDataIntoDOM = (dataArray) => {
         container.innerHTML += template;
     }
 };
+
+handleData();
