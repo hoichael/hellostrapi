@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_article_article_sections",
+  "info": {
+    "displayName": "Article Section",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "<DEFAULT ARTICLE SECTION TITLE>"
+    },
+    "text": {
+      "type": "text",
+      "default": "<DEFAULT ARTICLE SECTION TEXT>",
+      "required": true
+    }
+  }
+}

@@ -2,75 +2,76 @@
 /* GENERAL */
 /* GENERAL */
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: lightsteelblue;
-  padding: 0;
-  margin: 0;
+    background-color: lightsteelblue;
+    padding: 0;
+    padding-bottom: 48px;
+    margin: 0;
 }
 
 .page-inner {
-  width: 94vw;
+    width: 94vw;
 }
 
 .text-big {
-  font-size: 30px;
-  letter-spacing: 3px;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .text-medium {
-  font-size: 25px;
-  letter-spacing: 0.04rem;
-  word-spacing: 0.2rem;
+    font-size: 25px;
+    letter-spacing: 0.04rem;
+    word-spacing: 0.2rem;
 }
 
 .text-small {
-  font-size: 17px;
-  letter-spacing: 0.028rem;
-  word-spacing: 0.17rem;
+    font-size: 17px;
+    letter-spacing: 0.028rem;
+    word-spacing: 0.17rem;
 }
 
 /* NAV */
 /* NAV */
 /* NAV */
 .nav-container {
-  width: 100%;
-  height: 100px;
-  margin-left: 3vw;
-  margin-top: 24px;
-  background-color: dodgerblue;
-  border-radius: 180px;
+    width: 100%;
+    height: 100px;
+    margin-left: 3vw;
+    margin-top: 24px;
+    background-color: dodgerblue;
+    border-radius: 180px;
 
-  box-shadow: 0 16px 4px rgb(0, 48, 48);
+    box-shadow: 0 16px 4px rgb(0, 48, 48);
 
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-item,
 .nav-item-active {
-  height: 70px;
-  /* background-color: white; */
-  border-radius: 48px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-top: 16px;
-  text-align: center;
-  text-decoration: none;
-  color: black;
+    height: 70px;
+    /* background-color: white; */
+    border-radius: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-item:hover {
-  background-color: rgb(48, 105, 212);
+    background-color: rgb(48, 105, 212);
 }
 
 .nav-item-active {
-  outline: 2px solid rgb(48, 105, 212);
-  color: rgb(48, 105, 212);
+    outline: 2px solid rgb(48, 105, 212);
+    color: rgb(48, 105, 212);
 }
 
 .nav-item-text {
-  margin-top: 16px;
+    margin-top: 16px;
 }
